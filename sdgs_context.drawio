@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T13:25:44.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="81_OGphrS46PQnUNL5bs" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T13:37:27.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="GsbOYcYe8iLgQt-zFP6K" version="20.0.1" type="github">
   <diagram id="iNHM5rQC0G_VCljfB0WK" name="Page-1">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
         <mxCell id="dnXlJcdKjLnWwiea_6q6-3" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;Certain consumers&lt;br&gt;such as the Ocean&amp;nbsp;&lt;br&gt;Conference programme&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="590" y="680" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="egXUL08aLy7-f1v6Yw_E-1" value="Partner&lt;br&gt;&lt;br&gt;A restricted editor that &lt;br&gt;only edits partnerships &lt;br&gt;they have submitted" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="egXUL08aLy7-f1v6Yw_E-1" value="Partner&lt;br&gt;&lt;br&gt;A restricted editor that &lt;br&gt;only edits its own partnerships" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="712" y="366" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="egXUL08aLy7-f1v6Yw_E-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1">
