@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T13:37:32.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="x5FXoru2-5BXnfShtzXd" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T13:47:57.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="crHwqmPuqcvcDx-vvDq0" version="20.0.1" type="github">
   <diagram id="lPrCDPQLiQtTWRauQyFC" name="Page-1">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,30 +23,10 @@
             <mxPoint x="29" y="26" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bu7_vYAvOQrZbztzWP5K-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="xXB0880YJBGl5hXITFnQ-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Bu7_vYAvOQrZbztzWP5K-7" value="Create/Read/Update/Delete &lt;br&gt;designation/grounds pass info&amp;nbsp;&lt;br&gt;&lt;i&gt;[PULL/PUSH designation/grounds pass info]&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Bu7_vYAvOQrZbztzWP5K-3" vertex="1" connectable="0">
-          <mxGeometry x="-0.1206" y="5" relative="1" as="geometry">
-            <mxPoint x="-40" y="-22.5" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Bu7_vYAvOQrZbztzWP5K-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.142;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="xXB0880YJBGl5hXITFnQ-10" target="bgdgJC9NU4AwRjaVFT1V-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="653" y="665.04" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Bu7_vYAvOQrZbztzWP5K-6" value="Create/Read/Update/Delete &lt;br&gt;event/participant info&lt;br&gt;&lt;i&gt;[PULL/PUSH event/participant info]&lt;/i&gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Bu7_vYAvOQrZbztzWP5K-5" vertex="1" connectable="0">
-          <mxGeometry x="-0.361" y="1" relative="1" as="geometry">
-            <mxPoint x="19" y="-36.5" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Bu7_vYAvOQrZbztzWP5K-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xXB0880YJBGl5hXITFnQ-10" target="Bu7_vYAvOQrZbztzWP5K-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bu7_vYAvOQrZbztzWP5K-10" value="Create and send reminder emails&lt;br&gt;[PUSH email]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Bu7_vYAvOQrZbztzWP5K-9" vertex="1" connectable="0">
+        <mxCell id="Bu7_vYAvOQrZbztzWP5K-10" value="Send system emails&lt;br&gt;[PUSH email]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Bu7_vYAvOQrZbztzWP5K-9" vertex="1" connectable="0">
           <mxGeometry x="-0.0836" y="9" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -56,7 +36,7 @@
             <mxGeometry x="310" y="665" width="135" height="85" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="xXB0880YJBGl5hXITFnQ-11" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;Drupal Files&lt;/b&gt;&lt;br&gt;&lt;i&gt;[Azure File Storage Service]&lt;/i&gt;&lt;br&gt;&lt;br&gt;Azure File Storage Service that holds Drupal&amp;nbsp; system and uploaded files&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#85BBF0;" parent="1" vertex="1">
+        <mxCell id="xXB0880YJBGl5hXITFnQ-11" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;Drupal Files&lt;/b&gt;&lt;br&gt;&lt;i&gt;[Storage Service]&lt;/i&gt;&lt;br&gt;&lt;br&gt;File Storage Service that holds Drupal&amp;nbsp; system and uploaded files&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#85BBF0;" parent="1" vertex="1">
           <mxGeometry x="465" y="890" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="xXB0880YJBGl5hXITFnQ-12" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;Drupal Database&lt;br&gt;&lt;/b&gt;&lt;i&gt;[MySQL Database]&lt;/i&gt;&lt;br&gt;&lt;br&gt;Database that contains Drupal content&lt;br&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#85BBF0;" parent="1" vertex="1">
@@ -83,40 +63,12 @@
             <mxPoint x="-109.19999999999999" y="-24.4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dWL9C9GRhWla6cgMhubv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xXB0880YJBGl5hXITFnQ-17" target="bgdgJC9NU4AwRjaVFT1V-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dWL9C9GRhWla6cgMhubv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xXB0880YJBGl5hXITFnQ-17" target="Bu7_vYAvOQrZbztzWP5K-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="465" y="340" />
-              <mxPoint x="780" y="340" />
-              <mxPoint x="780" y="790" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dWL9C9GRhWla6cgMhubv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xXB0880YJBGl5hXITFnQ-17" target="bgdgJC9NU4AwRjaVFT1V-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="85" y="720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="dWL9C9GRhWla6cgMhubv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xXB0880YJBGl5hXITFnQ-17" target="xXB0880YJBGl5hXITFnQ-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="30" y="690" as="targetPoint" />
             <Array as="points">
               <mxPoint x="20" y="355" />
               <mxPoint x="20" y="955" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dWL9C9GRhWla6cgMhubv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.998;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xXB0880YJBGl5hXITFnQ-17" target="xXB0880YJBGl5hXITFnQ-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="465" y="330" />
-              <mxPoint x="790" y="330" />
-              <mxPoint x="790" y="978" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -214,15 +166,6 @@
         <mxCell id="dJNGcctZBXjR5YwxkmDR-3" value="Pass Authentication Info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#2FFF0F;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="290" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="bgdgJC9NU4AwRjaVFT1V-1" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;Indico&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#999999;" parent="1" vertex="1">
-          <mxGeometry x="660" y="615" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="bgdgJC9NU4AwRjaVFT1V-2" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;Enterprise Service Bus&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#999999;" parent="1" vertex="1">
-          <mxGeometry x="60" y="730" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="fSkdzEtW4nZQh_2HrwFM-2" value="Partner&lt;br&gt;&lt;br&gt;A restricted editor that &lt;br&gt;only edits its own &lt;br&gt;partnerships &lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="590" y="180" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="fSkdzEtW4nZQh_2HrwFM-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.019;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" target="VBMkfDUlIMW8kVnEWXf--1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="270" as="sourcePoint" />
@@ -234,6 +177,12 @@
             </Array>
             <mxPoint x="390" y="458.28" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fSkdzEtW4nZQh_2HrwFM-5" value="Edits its own partnerships&lt;br&gt;&lt;i&gt;[PULL content and files]&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="588" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="fSkdzEtW4nZQh_2HrwFM-2" value="Partner&lt;br&gt;&lt;br&gt;A restricted editor&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="590" y="180" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
