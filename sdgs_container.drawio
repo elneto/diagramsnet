@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T13:47:57.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="crHwqmPuqcvcDx-vvDq0" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T13:52:32.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="Mokl-SabTDTX0Z-W5EO-" version="20.0.1" type="github">
   <diagram id="lPrCDPQLiQtTWRauQyFC" name="Page-1">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -183,6 +183,20 @@
         </mxCell>
         <mxCell id="fSkdzEtW4nZQh_2HrwFM-2" value="Partner&lt;br&gt;&lt;br&gt;A restricted editor&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="590" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fSkdzEtW4nZQh_2HrwFM-6" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;background-color: rgb(168, 168, 168);&quot;&gt;&lt;br&gt;&lt;b style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Certain consumers&lt;br&gt;such as the Ocean&amp;nbsp;&lt;br&gt;Conference programme&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8A8A8;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="650" y="616" width="133" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fSkdzEtW4nZQh_2HrwFM-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.411;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fSkdzEtW4nZQh_2HrwFM-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="690" as="sourcePoint" />
+            <mxPoint x="640" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fSkdzEtW4nZQh_2HrwFM-8" value="Read-only JSON api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fSkdzEtW4nZQh_2HrwFM-7">
+          <mxGeometry x="-0.0836" y="9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
