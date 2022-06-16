@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:20:24.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="r7yjcLllLmu18LX6IcMh" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:22:21.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="CYi84sLPTDVDg_w67Fwb" version="20.0.1" type="github">
   <diagram id="GKtPb_r8yJt0VdL1mK9h" name="Page-1">
     <mxGraphModel dx="1422" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nDk1nyGlxnwIBkytpRcf-13" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="50" y="480" width="680" height="330" as="geometry" />
+        </mxCell>
         <mxCell id="nDk1nyGlxnwIBkytpRcf-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="230" y="820" width="480" height="270" as="geometry" />
         </mxCell>
@@ -181,9 +184,6 @@
         <mxCell id="nDk1nyGlxnwIBkytpRcf-12" value="Access Zone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="310" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nDk1nyGlxnwIBkytpRcf-13" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="480" width="680" height="330" as="geometry" />
-        </mxCell>
         <mxCell id="nDk1nyGlxnwIBkytpRcf-14" value="Application Zone&lt;br&gt;Virtual Machine / docker instance?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="395" y="490" width="110" height="20" as="geometry" />
         </mxCell>
@@ -239,6 +239,17 @@
         <mxCell id="iPhN5QF8U30i-XC0unn8-3" value="&amp;lt;HTTPS:443&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iPhN5QF8U30i-XC0unn8-2">
           <mxGeometry x="-0.5516" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Solr ^8" c4Type="Container" c4Technology="Apache Solr" c4Description="Solr ^8" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="iPhN5QF8U30i-XC0unn8-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="98" y="663" width="105" height="82" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="iPhN5QF8U30i-XC0unn8-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iPhN5QF8U30i-XC0unn8-6" target="JDOhgQU0RPnqJ7KG021f-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="203" y="754" as="sourcePoint" />
+            <mxPoint x="273.71067811865476" y="704" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
