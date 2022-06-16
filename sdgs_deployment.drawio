@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:22:21.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="CYi84sLPTDVDg_w67Fwb" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:27:57.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="vEctu9uxejrceI8VhN8P" version="20.0.1" type="github">
   <diagram id="GKtPb_r8yJt0VdL1mK9h" name="Page-1">
-    <mxGraphModel dx="1422" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,7 +148,7 @@
           <mxGeometry x="752" y="60" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JDOhgQU0RPnqJ7KG021f-19" value="sdgs.un.org System Deployment&lt;br&gt;&lt;i style=&quot;font-size: 16px ; line-height: 60%&quot;&gt;&lt;span style=&quot;font-weight: normal ; line-height: 110%&quot;&gt;&lt;i style=&quot;font-weight: 700; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://sdgs.un.org/&quot;&gt;https://sdgs.un.org/&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; line-height: 17.6px;&quot;&gt;&amp;nbsp;- Prod&lt;br&gt;&lt;a href=&quot;https://sdgs.dev.un.org/&quot;&gt;https://sdgs.dev.un.org&lt;/a&gt;&amp;nbsp;- Dev&lt;br&gt;&lt;i style=&quot;font-weight: 700; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;font-weight: normal; line-height: 17.6px;&quot;&gt;&lt;a href=&quot;https://sdgs.qa.un.org/&quot;&gt;https://sdgs.qa.un.org&lt;/a&gt;&amp;nbsp;- QA&lt;/span&gt;&lt;/i&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;&lt;/span&gt;&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="200" y="30" width="100" height="40" as="geometry" />
+          <mxGeometry x="200" y="48" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nDk1nyGlxnwIBkytpRcf-6" value="Back-end Zone Virtual machine / docker instance?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="830" width="175" as="geometry" />
