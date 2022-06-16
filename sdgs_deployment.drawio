@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:16:46.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="_N5883eJ0UpWNQgjXJYs" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:20:24.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="r7yjcLllLmu18LX6IcMh" version="20.0.1" type="github">
   <diagram id="GKtPb_r8yJt0VdL1mK9h" name="Page-1">
     <mxGraphModel dx="1422" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -38,9 +38,9 @@
         <mxCell id="JDOhgQU0RPnqJ7KG021f-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JDOhgQU0RPnqJ7KG021f-1" target="JDOhgQU0RPnqJ7KG021f-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JDOhgQU0RPnqJ7KG021f-31" value="&amp;lt;Azure File Storage:445&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JDOhgQU0RPnqJ7KG021f-7" vertex="1" connectable="0">
+        <mxCell id="JDOhgQU0RPnqJ7KG021f-31" value="&amp;lt;File Storage:445&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JDOhgQU0RPnqJ7KG021f-7" vertex="1" connectable="0">
           <mxGeometry x="0.2108" y="1" relative="1" as="geometry">
-            <mxPoint x="3.5500000000000007" y="-9.04" as="offset" />
+            <mxPoint x="6" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <object placeholders="1" c4Name="Drupal Modules" c4Type="Container" c4Technology="PHP" c4Description="Drupal Core and Contributed Modules" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JDOhgQU0RPnqJ7KG021f-1">
@@ -147,7 +147,7 @@
         <mxCell id="JDOhgQU0RPnqJ7KG021f-19" value="sdgs.un.org System Deployment&lt;br&gt;&lt;i style=&quot;font-size: 16px ; line-height: 60%&quot;&gt;&lt;span style=&quot;font-weight: normal ; line-height: 110%&quot;&gt;&lt;i style=&quot;font-weight: 700; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://sdgs.un.org/&quot;&gt;https://sdgs.un.org/&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; line-height: 17.6px;&quot;&gt;&amp;nbsp;- Prod&lt;br&gt;&lt;a href=&quot;https://sdgs.dev.un.org/&quot;&gt;https://sdgs.dev.un.org&lt;/a&gt;&amp;nbsp;- Dev&lt;br&gt;&lt;i style=&quot;font-weight: 700; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;font-weight: normal; line-height: 17.6px;&quot;&gt;&lt;a href=&quot;https://sdgs.qa.un.org/&quot;&gt;https://sdgs.qa.un.org&lt;/a&gt;&amp;nbsp;- QA&lt;/span&gt;&lt;/i&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;&lt;/span&gt;&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="30" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nDk1nyGlxnwIBkytpRcf-6" value="Back-end Zone Virtual machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
+        <mxCell id="nDk1nyGlxnwIBkytpRcf-6" value="Back-end Zone Virtual machine / docker instance?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="830" width="175" as="geometry" />
         </mxCell>
         <mxCell id="nDk1nyGlxnwIBkytpRcf-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nDk1nyGlxnwIBkytpRcf-9" target="JDOhgQU0RPnqJ7KG021f-8" edge="1">
@@ -184,7 +184,7 @@
         <mxCell id="nDk1nyGlxnwIBkytpRcf-13" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="50" y="480" width="680" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="nDk1nyGlxnwIBkytpRcf-14" value="Application Zone&lt;br&gt;Virtual Machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
+        <mxCell id="nDk1nyGlxnwIBkytpRcf-14" value="Application Zone&lt;br&gt;Virtual Machine / docker instance?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="395" y="490" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="nDk1nyGlxnwIBkytpRcf-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="nDk1nyGlxnwIBkytpRcf-17" target="JDOhgQU0RPnqJ7KG021f-1" edge="1">
@@ -222,6 +222,24 @@
         </mxCell>
         <mxCell id="H2leGGakqX-JUJHJOfpY-1" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;JSON api read-only&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="90" y="980" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iPhN5QF8U30i-XC0unn8-1" value="Partner&lt;br&gt;Web browser" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="637" y="63" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iPhN5QF8U30i-XC0unn8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="650" y="154" />
+              <mxPoint x="650" y="404" />
+            </Array>
+            <mxPoint x="430" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPhN5QF8U30i-XC0unn8-3" value="&amp;lt;HTTPS:443&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iPhN5QF8U30i-XC0unn8-2">
+          <mxGeometry x="-0.5516" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
