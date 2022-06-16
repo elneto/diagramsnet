@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T13:56:00.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="mBx0g87z6qfBdEr87l2F" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:16:46.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="_N5883eJ0UpWNQgjXJYs" version="20.0.1" type="github">
   <diagram id="GKtPb_r8yJt0VdL1mK9h" name="Page-1">
     <mxGraphModel dx="1422" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nDk1nyGlxnwIBkytpRcf-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="230" y="820" width="480" height="270" as="geometry" />
+        </mxCell>
         <object placeholders="1" c4Name="Apache Web server" c4Type="DeploymentNode" c4OperationSystem="Apache" c4ScalingFactor="" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4OperationSystem%]&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;%c4ScalingFactor%&lt;/div&gt;" id="JDOhgQU0RPnqJ7KG021f-27">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];container=0;backgroundOutline=0;" parent="1" vertex="1">
             <mxGeometry x="95" y="520" width="585" height="280" as="geometry" />
@@ -14,7 +17,7 @@
             <mxGeometry x="210" y="540" width="440" height="240" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Drupal Files" c4Type="DeploymentNode" c4OperationSystem="Azure File Storage" c4ScalingFactor="" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4OperationSystem%]&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;%c4ScalingFactor%&lt;/div&gt;" id="JDOhgQU0RPnqJ7KG021f-25">
+        <object placeholders="1" c4Name="Drupal Files" c4Type="DeploymentNode" c4OperationSystem="File Storage" c4ScalingFactor="" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4OperationSystem%]&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;%c4ScalingFactor%&lt;/div&gt;" id="JDOhgQU0RPnqJ7KG021f-25">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];container=0;backgroundOutline=0;" parent="1" vertex="1">
             <mxGeometry x="500" y="890" width="190" height="170" as="geometry" />
           </mxCell>
@@ -45,7 +48,7 @@
             <mxGeometry x="330" y="690" width="125" height="85" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="JDOhgQU0RPnqJ7KG021f-4" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;Drupal Files&lt;/b&gt;&lt;br&gt;&lt;i&gt;[Azure File Storage]&lt;/i&gt;&lt;br&gt;Azure File Storage that holds Drupal documents and system files&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#85BBF0;" parent="1" vertex="1">
+        <mxCell id="JDOhgQU0RPnqJ7KG021f-4" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;Drupal Files&lt;/b&gt;&lt;br&gt;&lt;i&gt;[File Storage]&lt;/i&gt;&lt;br&gt;File Storage that holds Drupal documents and system files&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#85BBF0;" parent="1" vertex="1">
           <mxGeometry x="510" y="910" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="JDOhgQU0RPnqJ7KG021f-5" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;Drupal Database&lt;br&gt;&lt;/b&gt;&lt;i&gt;[MySQL Database]&lt;/i&gt;&lt;br&gt;&lt;br&gt;Database that contains Drupal&amp;nbsp; content metadata&lt;br&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#85BBF0;" parent="1" vertex="1">
@@ -67,38 +70,6 @@
         <mxCell id="JDOhgQU0RPnqJ7KG021f-32" value="&amp;lt;HTTPS:443&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JDOhgQU0RPnqJ7KG021f-11" vertex="1" connectable="0">
           <mxGeometry x="-0.4192" relative="1" as="geometry">
             <mxPoint x="3.87" y="-8.89" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LGF-7dq-84BCdiYmrRLC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JDOhgQU0RPnqJ7KG021f-10" target="ilQx9SMYHlKJqtAEL6Zz-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LGF-7dq-84BCdiYmrRLC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JDOhgQU0RPnqJ7KG021f-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="81.90524980688872" y="1020" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="20" y="205" />
-              <mxPoint x="20" y="1020" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LGF-7dq-84BCdiYmrRLC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JDOhgQU0RPnqJ7KG021f-10" target="JDOhgQU0RPnqJ7KG021f-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="840" y="1060" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="830" y="205" />
-              <mxPoint x="830" y="1040" />
-              <mxPoint x="595" y="1040" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LGF-7dq-84BCdiYmrRLC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JDOhgQU0RPnqJ7KG021f-10" target="JDOhgQU0RPnqJ7KG021f-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="840" y="1078" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="840" y="183" />
-              <mxPoint x="840" y="1080" />
-              <mxPoint x="373" y="1080" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JDOhgQU0RPnqJ7KG021f-10" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;UN Azure AD&lt;/b&gt;&lt;br&gt;&lt;br&gt;UN Azure Authentication Directory&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#999999;" parent="1" vertex="1">
@@ -158,9 +129,10 @@
         </mxCell>
         <mxCell id="dxl03862SMSp4wlfeaVz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.885;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" parent="1" target="nDk1nyGlxnwIBkytpRcf-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="615" y="170" as="sourcePoint" />
+            <mxPoint x="770" y="170" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="615" y="420" />
+              <mxPoint x="770" y="170" />
+              <mxPoint x="770" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -174,9 +146,6 @@
         </mxCell>
         <mxCell id="JDOhgQU0RPnqJ7KG021f-19" value="sdgs.un.org System Deployment&lt;br&gt;&lt;i style=&quot;font-size: 16px ; line-height: 60%&quot;&gt;&lt;span style=&quot;font-weight: normal ; line-height: 110%&quot;&gt;&lt;i style=&quot;font-weight: 700; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://sdgs.un.org/&quot;&gt;https://sdgs.un.org/&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; line-height: 17.6px;&quot;&gt;&amp;nbsp;- Prod&lt;br&gt;&lt;a href=&quot;https://sdgs.dev.un.org/&quot;&gt;https://sdgs.dev.un.org&lt;/a&gt;&amp;nbsp;- Dev&lt;br&gt;&lt;i style=&quot;font-weight: 700; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;font-weight: normal; line-height: 17.6px;&quot;&gt;&lt;a href=&quot;https://sdgs.qa.un.org/&quot;&gt;https://sdgs.qa.un.org&lt;/a&gt;&amp;nbsp;- QA&lt;/span&gt;&lt;/i&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;&lt;/span&gt;&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="30" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nDk1nyGlxnwIBkytpRcf-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="230" y="820" width="480" height="270" as="geometry" />
         </mxCell>
         <mxCell id="nDk1nyGlxnwIBkytpRcf-6" value="Back-end Zone Virtual machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="830" width="175" as="geometry" />
@@ -251,7 +220,7 @@
             <mxPoint x="-27.919999999999998" y="19.02" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H2leGGakqX-JUJHJOfpY-1" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;Enterprise Service Bus&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#999999;" parent="1" vertex="1">
+        <mxCell id="H2leGGakqX-JUJHJOfpY-1" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;JSON api read-only&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="90" y="980" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
